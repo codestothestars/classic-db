@@ -25,66 +25,66 @@ VALUES
 INSERT INTO conditions
 (`condition_entry`, `type`, `value1`, `value2`, `comments`)
 VALUES
-(1399, 9, 41, 1, 'Quest in progress: Ace of Beasts'),
-(1400, 9, 42, 1, 'Quest in progress: Ace of Warlords'),
-(1401, 9, 43, 1, 'Quest in progress: Ace of Elementals'),
-(1402, 9, 44, 1, 'Quest in progress: Ace of Portals'),
-(1403, 16, 19230, 1, 'Does not have item: Two of Beasts'),
-(1404, 16, 19231, 1, 'Does not have item: Three of Beasts'),
-(1405, 16, 19232, 1, 'Does not have item: Four of Beasts'),
-(1406, 16, 19233, 1, 'Does not have item: Five of Beasts'),
-(1407, 16, 19234, 1, 'Does not have item: Six of Beasts'),
-(1408, 16, 19235, 1, 'Does not have item: Seven of Beasts'),
-(1409, 16, 19236, 1, 'Does not have item: Eight of Beasts'),
-(1410, 16, 19259, 1, 'Does not have item: Two of Warlords'),
-(1411, 16, 19260, 1, 'Does not have item: Three of Warlords'),
-(1412, 16, 19261, 1, 'Does not have item: Four of Warlords'),
-(1413, 16, 19262, 1, 'Does not have item: Five of Warlords'),
-(1414, 16, 19263, 1, 'Does not have item: Six of Warlords'),
-(1415, 16, 19264, 1, 'Does not have item: Seven of Warlords'),
-(1416, 16, 19265, 1, 'Does not have item: Eight of Warlords'),
-(1417, 16, 19269, 1, 'Does not have item: Two of Elementals'),
-(1418, 16, 19270, 1, 'Does not have item: Three of Elementals'),
-(1419, 16, 19271, 1, 'Does not have item: Four of Elementals'),
-(1420, 16, 19272, 1, 'Does not have item: Five of Elementals'),
-(1421, 16, 19273, 1, 'Does not have item: Six of Elementals'),
-(1422, 16, 19274, 1, 'Does not have item: Seven of Elementals'),
-(1423, 16, 19275, 1, 'Does not have item: Eight of Elementals'),
-(1424, 16, 19278, 1, 'Does not have item: Two of Portals'),
-(1425, 16, 19279, 1, 'Does not have item: Three of Portals'),
-(1426, 16, 19280, 1, 'Does not have item: Four of Portals'),
-(1427, 16, 19281, 1, 'Does not have item: Five of Portals'),
-(1428, 16, 19282, 1, 'Does not have item: Six of Portals'),
-(1429, 16, 19283, 1, 'Does not have item: Seven of Portals'),
-(1430, 16, 19284, 1, 'Does not have item: Eight of Portals'),
-(1431, -1, 1399, 1403, 'Quest in progress: Ace of Beasts AND Does not have item: Two of Beasts'),
-(1432, -1, 1399, 1404, 'Quest in progress: Ace of Beasts AND Does not have item: Three of Beasts'),
-(1433, -1, 1399, 1405, 'Quest in progress: Ace of Beasts AND Does not have item: Four of Beasts'),
-(1434, -1, 1399, 1406, 'Quest in progress: Ace of Beasts AND Does not have item: Five of Beasts'),
-(1435, -1, 1399, 1407, 'Quest in progress: Ace of Beasts AND Does not have item: Six of Beasts'),
-(1436, -1, 1399, 1408, 'Quest in progress: Ace of Beasts AND Does not have item: Seven of Beasts'),
-(1437, -1, 1399, 1409, 'Quest in progress: Ace of Beasts AND Does not have item: Eight of Beasts'),
-(1438, -1, 1400, 1410, 'Quest in progress: Ace of Warlords AND Does not have item: Two of Warlords'),
-(1439, -1, 1400, 1411, 'Quest in progress: Ace of Warlords AND Does not have item: Three of Warlords'),
-(1440, -1, 1400, 1412, 'Quest in progress: Ace of Warlords AND Does not have item: Four of Warlords'),
-(1441, -1, 1400, 1413, 'Quest in progress: Ace of Warlords AND Does not have item: Five of Warlords'),
-(1442, -1, 1400, 1414, 'Quest in progress: Ace of Warlords AND Does not have item: Six of Warlords'),
-(1443, -1, 1400, 1415, 'Quest in progress: Ace of Warlords AND Does not have item: Seven of Warlords'),
-(1444, -1, 1400, 1416, 'Quest in progress: Ace of Warlords AND Does not have item: Eight of Warlords'),
-(1445, -1, 1401, 1417, 'Quest in progress: Ace of Elementals AND Does not have item: Two of Elementals'),
-(1446, -1, 1401, 1418, 'Quest in progress: Ace of Elementals AND Does not have item: Three of Elementals'),
-(1447, -1, 1401, 1419, 'Quest in progress: Ace of Elementals AND Does not have item: Four of Elementals'),
-(1448, -1, 1401, 1420, 'Quest in progress: Ace of Elementals AND Does not have item: Five of Elementals'),
-(1449, -1, 1401, 1421, 'Quest in progress: Ace of Elementals AND Does not have item: Six of Elementals'),
-(1450, -1, 1401, 1422, 'Quest in progress: Ace of Elementals AND Does not have item: Seven of Elementals'),
-(1451, -1, 1401, 1423, 'Quest in progress: Ace of Elementals AND Does not have item: Eight of Elementals'),
-(1452, -1, 1402, 1424, 'Quest in progress: Ace of Portals AND Does not have item: Two of Portals'),
-(1453, -1, 1402, 1425, 'Quest in progress: Ace of Portals AND Does not have item: Three of Portals'),
-(1454, -1, 1402, 1426, 'Quest in progress: Ace of Portals AND Does not have item: Four of Portals'),
-(1455, -1, 1402, 1427, 'Quest in progress: Ace of Portals AND Does not have item: Five of Portals'),
-(1456, -1, 1402, 1428, 'Quest in progress: Ace of Portals AND Does not have item: Six of Portals'),
-(1457, -1, 1402, 1429, 'Quest in progress: Ace of Portals AND Does not have item: Seven of Portals'),
-(1458, -1, 1402, 1430, 'Quest in progress: Ace of Portals AND Does not have item: Eight of Portals');
+(1599, 9, 41, 1, 'Quest in progress: Ace of Beasts'),
+(1600, 9, 42, 1, 'Quest in progress: Ace of Warlords'),
+(1601, 9, 43, 1, 'Quest in progress: Ace of Elementals'),
+(1602, 9, 44, 1, 'Quest in progress: Ace of Portals'),
+(1603, 16, 19230, 1, 'Does not have item: Two of Beasts'),
+(1604, 16, 19231, 1, 'Does not have item: Three of Beasts'),
+(1605, 16, 19232, 1, 'Does not have item: Four of Beasts'),
+(1606, 16, 19233, 1, 'Does not have item: Five of Beasts'),
+(1607, 16, 19234, 1, 'Does not have item: Six of Beasts'),
+(1608, 16, 19235, 1, 'Does not have item: Seven of Beasts'),
+(1609, 16, 19236, 1, 'Does not have item: Eight of Beasts'),
+(1610, 16, 19259, 1, 'Does not have item: Two of Warlords'),
+(1611, 16, 19260, 1, 'Does not have item: Three of Warlords'),
+(1612, 16, 19261, 1, 'Does not have item: Four of Warlords'),
+(1613, 16, 19262, 1, 'Does not have item: Five of Warlords'),
+(1614, 16, 19263, 1, 'Does not have item: Six of Warlords'),
+(1615, 16, 19264, 1, 'Does not have item: Seven of Warlords'),
+(1616, 16, 19265, 1, 'Does not have item: Eight of Warlords'),
+(1617, 16, 19269, 1, 'Does not have item: Two of Elementals'),
+(1618, 16, 19270, 1, 'Does not have item: Three of Elementals'),
+(1619, 16, 19271, 1, 'Does not have item: Four of Elementals'),
+(1620, 16, 19272, 1, 'Does not have item: Five of Elementals'),
+(1621, 16, 19273, 1, 'Does not have item: Six of Elementals'),
+(1622, 16, 19274, 1, 'Does not have item: Seven of Elementals'),
+(1623, 16, 19275, 1, 'Does not have item: Eight of Elementals'),
+(1624, 16, 19278, 1, 'Does not have item: Two of Portals'),
+(1625, 16, 19279, 1, 'Does not have item: Three of Portals'),
+(1626, 16, 19280, 1, 'Does not have item: Four of Portals'),
+(1627, 16, 19281, 1, 'Does not have item: Five of Portals'),
+(1628, 16, 19282, 1, 'Does not have item: Six of Portals'),
+(1629, 16, 19283, 1, 'Does not have item: Seven of Portals'),
+(1630, 16, 19284, 1, 'Does not have item: Eight of Portals'),
+(1631, -1, 1599, 1603, 'Quest in progress: Ace of Beasts AND Does not have item: Two of Beasts'),
+(1632, -1, 1599, 1604, 'Quest in progress: Ace of Beasts AND Does not have item: Three of Beasts'),
+(1633, -1, 1599, 1605, 'Quest in progress: Ace of Beasts AND Does not have item: Four of Beasts'),
+(1634, -1, 1599, 1606, 'Quest in progress: Ace of Beasts AND Does not have item: Five of Beasts'),
+(1635, -1, 1599, 1607, 'Quest in progress: Ace of Beasts AND Does not have item: Six of Beasts'),
+(1636, -1, 1599, 1608, 'Quest in progress: Ace of Beasts AND Does not have item: Seven of Beasts'),
+(1637, -1, 1599, 1609, 'Quest in progress: Ace of Beasts AND Does not have item: Eight of Beasts'),
+(1638, -1, 1600, 1610, 'Quest in progress: Ace of Warlords AND Does not have item: Two of Warlords'),
+(1639, -1, 1600, 1611, 'Quest in progress: Ace of Warlords AND Does not have item: Three of Warlords'),
+(1640, -1, 1600, 1612, 'Quest in progress: Ace of Warlords AND Does not have item: Four of Warlords'),
+(1641, -1, 1600, 1613, 'Quest in progress: Ace of Warlords AND Does not have item: Five of Warlords'),
+(1642, -1, 1600, 1614, 'Quest in progress: Ace of Warlords AND Does not have item: Six of Warlords'),
+(1643, -1, 1600, 1615, 'Quest in progress: Ace of Warlords AND Does not have item: Seven of Warlords'),
+(1644, -1, 1600, 1616, 'Quest in progress: Ace of Warlords AND Does not have item: Eight of Warlords'),
+(1645, -1, 1601, 1617, 'Quest in progress: Ace of Elementals AND Does not have item: Two of Elementals'),
+(1646, -1, 1601, 1618, 'Quest in progress: Ace of Elementals AND Does not have item: Three of Elementals'),
+(1647, -1, 1601, 1619, 'Quest in progress: Ace of Elementals AND Does not have item: Four of Elementals'),
+(1648, -1, 1601, 1620, 'Quest in progress: Ace of Elementals AND Does not have item: Five of Elementals'),
+(1649, -1, 1601, 1621, 'Quest in progress: Ace of Elementals AND Does not have item: Six of Elementals'),
+(1650, -1, 1601, 1622, 'Quest in progress: Ace of Elementals AND Does not have item: Seven of Elementals'),
+(1651, -1, 1601, 1623, 'Quest in progress: Ace of Elementals AND Does not have item: Eight of Elementals'),
+(1652, -1, 1602, 1624, 'Quest in progress: Ace of Portals AND Does not have item: Two of Portals'),
+(1653, -1, 1602, 1625, 'Quest in progress: Ace of Portals AND Does not have item: Three of Portals'),
+(1654, -1, 1602, 1626, 'Quest in progress: Ace of Portals AND Does not have item: Four of Portals'),
+(1655, -1, 1602, 1627, 'Quest in progress: Ace of Portals AND Does not have item: Five of Portals'),
+(1656, -1, 1602, 1628, 'Quest in progress: Ace of Portals AND Does not have item: Six of Portals'),
+(1657, -1, 1602, 1629, 'Quest in progress: Ace of Portals AND Does not have item: Seven of Portals'),
+(1658, -1, 1602, 1630, 'Quest in progress: Ace of Portals AND Does not have item: Eight of Portals');
 
 -- Make the spell that creates each deck complete the new quest for that deck
 UPDATE spell_template SET Effect2 = 16, EffectMiscValue2 = 41 WHERE Id = 23677;
@@ -114,34 +114,34 @@ SET
 WHERE item IN (1, 2, 3, 4);
 
 -- Make each non-Ace card of each set require the new quest for that set and not drop if the player already has it
-UPDATE creature_loot_template SET condition_id = 1431 WHERE item = 19230;
-UPDATE creature_loot_template SET condition_id = 1432 WHERE item = 19231;
-UPDATE creature_loot_template SET condition_id = 1433 WHERE item = 19232;
-UPDATE creature_loot_template SET condition_id = 1434 WHERE item = 19233;
-UPDATE creature_loot_template SET condition_id = 1435 WHERE item = 19234;
-UPDATE creature_loot_template SET condition_id = 1436 WHERE item = 19235;
-UPDATE creature_loot_template SET condition_id = 1437 WHERE item = 19236;
-UPDATE creature_loot_template SET condition_id = 1438 WHERE item = 19259;
-UPDATE creature_loot_template SET condition_id = 1439 WHERE item = 19260;
-UPDATE creature_loot_template SET condition_id = 1440 WHERE item = 19261;
-UPDATE creature_loot_template SET condition_id = 1441 WHERE item = 19262;
-UPDATE creature_loot_template SET condition_id = 1442 WHERE item = 19263;
-UPDATE creature_loot_template SET condition_id = 1443 WHERE item = 19264;
-UPDATE creature_loot_template SET condition_id = 1444 WHERE item = 19265;
-UPDATE creature_loot_template SET condition_id = 1445 WHERE item = 19269;
-UPDATE creature_loot_template SET condition_id = 1446 WHERE item = 19270;
-UPDATE creature_loot_template SET condition_id = 1447 WHERE item = 19271;
-UPDATE creature_loot_template SET condition_id = 1448 WHERE item = 19272;
-UPDATE creature_loot_template SET condition_id = 1449 WHERE item = 19273;
-UPDATE creature_loot_template SET condition_id = 1450 WHERE item = 19274;
-UPDATE creature_loot_template SET condition_id = 1451 WHERE item = 19275;
-UPDATE creature_loot_template SET condition_id = 1452 WHERE item = 19278;
-UPDATE creature_loot_template SET condition_id = 1453 WHERE item = 19279;
-UPDATE creature_loot_template SET condition_id = 1454 WHERE item = 19280;
-UPDATE creature_loot_template SET condition_id = 1455 WHERE item = 19281;
-UPDATE creature_loot_template SET condition_id = 1456 WHERE item = 19282;
-UPDATE creature_loot_template SET condition_id = 1457 WHERE item = 19283;
-UPDATE creature_loot_template SET condition_id = 1458 WHERE item = 19284;
+UPDATE creature_loot_template SET condition_id = 1631 WHERE item = 19230;
+UPDATE creature_loot_template SET condition_id = 1632 WHERE item = 19231;
+UPDATE creature_loot_template SET condition_id = 1633 WHERE item = 19232;
+UPDATE creature_loot_template SET condition_id = 1634 WHERE item = 19233;
+UPDATE creature_loot_template SET condition_id = 1635 WHERE item = 19234;
+UPDATE creature_loot_template SET condition_id = 1636 WHERE item = 19235;
+UPDATE creature_loot_template SET condition_id = 1637 WHERE item = 19236;
+UPDATE creature_loot_template SET condition_id = 1638 WHERE item = 19259;
+UPDATE creature_loot_template SET condition_id = 1639 WHERE item = 19260;
+UPDATE creature_loot_template SET condition_id = 1640 WHERE item = 19261;
+UPDATE creature_loot_template SET condition_id = 1641 WHERE item = 19262;
+UPDATE creature_loot_template SET condition_id = 1642 WHERE item = 19263;
+UPDATE creature_loot_template SET condition_id = 1643 WHERE item = 19264;
+UPDATE creature_loot_template SET condition_id = 1644 WHERE item = 19265;
+UPDATE creature_loot_template SET condition_id = 1645 WHERE item = 19269;
+UPDATE creature_loot_template SET condition_id = 1646 WHERE item = 19270;
+UPDATE creature_loot_template SET condition_id = 1647 WHERE item = 19271;
+UPDATE creature_loot_template SET condition_id = 1648 WHERE item = 19272;
+UPDATE creature_loot_template SET condition_id = 1649 WHERE item = 19273;
+UPDATE creature_loot_template SET condition_id = 1650 WHERE item = 19274;
+UPDATE creature_loot_template SET condition_id = 1651 WHERE item = 19275;
+UPDATE creature_loot_template SET condition_id = 1652 WHERE item = 19278;
+UPDATE creature_loot_template SET condition_id = 1653 WHERE item = 19279;
+UPDATE creature_loot_template SET condition_id = 1654 WHERE item = 19280;
+UPDATE creature_loot_template SET condition_id = 1655 WHERE item = 19281;
+UPDATE creature_loot_template SET condition_id = 1656 WHERE item = 19282;
+UPDATE creature_loot_template SET condition_id = 1657 WHERE item = 19283;
+UPDATE creature_loot_template SET condition_id = 1658 WHERE item = 19284;
 
 -- Make the non-Ace cards grouped guaranteed drops
 UPDATE creature_loot_template
@@ -151,32 +151,32 @@ SET
     maxcount = 1,
     mincountOrRef = 1
 WHERE condition_id IN (
-    1431,
-    1432,
-    1433,
-    1434,
-    1435,
-    1436,
-    1437,
-    1438,
-    1439,
-    1440,
-    1441,
-    1442,
-    1443,
-    1444,
-    1445,
-    1446,
-    1447,
-    1448,
-    1449,
-    1450,
-    1451,
-    1452,
-    1453,
-    1454,
-    1455,
-    1456,
-    1457,
-    1458
+    1631,
+    1632,
+    1633,
+    1634,
+    1635,
+    1636,
+    1637,
+    1638,
+    1639,
+    1640,
+    1641,
+    1642,
+    1643,
+    1644,
+    1645,
+    1646,
+    1647,
+    1648,
+    1649,
+    1650,
+    1651,
+    1652,
+    1653,
+    1654,
+    1655,
+    1656,
+    1657,
+    1658
 );
