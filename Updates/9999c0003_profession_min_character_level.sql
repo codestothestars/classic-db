@@ -3,4 +3,4 @@
 
 UPDATE npc_trainer
 SET reqlevel = 0
-WHERE spell IN (2021, 4041, 11612);
+WHERE spell IN (2021, 3539, 4041, 10663, 10769, 11612);
