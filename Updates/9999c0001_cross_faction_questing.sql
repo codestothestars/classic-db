@@ -11,7 +11,6 @@ UPDATE `creature_template` SET `Faction` =  12 WHERE `Entry` = 1156;  -- Vyrin S
 UPDATE `creature_template` SET `Faction` = 123 WHERE `Faction` = 88;  -- Hillsbrad Militia to Stormwind
 UPDATE `creature_template` SET `Faction` = 123 WHERE `Entry` = 14275; -- Tamra Stormpike to Stormwind
 
-
 -- Remove faction condition for objects that contain items that start quests
 UPDATE `gameobject_loot_template` SET `condition_id` = 0 WHERE `entry` = 3214; -- Henrig Lonebrow's Journal
 
